@@ -12,24 +12,44 @@ p{
     text-align: center;
 }
 
-main{
-    position: relative;
-    left: 200px;
+#main-doc{
+    position: absolute;
+    left: 290px;
     top: 0px;
+    padding-left: 0.1rem;
 }
 
 section li{
-    padding-left: 50px;
-}
-
-nav{
-    margin: none;
+    padding-left: 2.5rem;
 }
 
 #navbar{
-    position: absolute;
+    position: fixed;
     left: 0px;
     top: 0px;
-    max-width: 200px;
+    min-width: 250px;
+    width: 290px;
     margin: none;
+    height: 100%;
+    border-right: solid;
+    border-color: gray;
+}
+
+#navbar li{
+    list-style: none;
+    border-top: 1px solid;
+    position: relative;
+    width: 100%;
+}
+
+nav header{
+    text-align: center;
+}
+
+nav a{
+    max-width: 200px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+
 }
