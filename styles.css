@@ -11,3 +11,25 @@ main header{
 p{
     text-align: center;
 }
+
+main{
+    position: relative;
+    left: 200px;
+    top: 0px;
+}
+
+section li{
+    padding-left: 50px;
+}
+
+nav{
+    margin: none;
+}
+
+#navbar{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    max-width: 200px;
+    margin: none;
+}
