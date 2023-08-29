@@ -53,7 +53,7 @@ nav a{
 
 }
 
-@media screen and(max-width:750px){
+@media (max-width:750px){
     #navbar{
         position: absolute;
         top: 0px;
@@ -73,6 +73,7 @@ nav a{
     #main-doc{
         position: relative;
         top: 250px;
+        left: 0px;
         margin-left: 0px;
     }
 }
