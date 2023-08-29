@@ -1,6 +1,5 @@
 *{
     font-family: sans-serif;
-    max-width: 800px;
 }
 
 main header{
@@ -52,4 +51,28 @@ nav a{
     padding-bottom: 0.5rem;
     display: flex;
 
+}
+
+@media screen and(max-width:750px){
+    #navbar{
+        position: absolute;
+        top: 0px;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        border: none;
+        max-height: 250px;
+        border-bottom: 2px solid;
+    }
+
+    #navbar ul{
+        border: 1.5px solid;
+        height: 200px;
+    }
+
+    #main-doc{
+        position: relative;
+        top: 250px;
+        margin-left: 0px;
+    }
 }
